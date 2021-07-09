@@ -1,0 +1,24 @@
+@media (max-width:1000px){
+    .section{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .left-block{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:768px){
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+    }
+   
+}
